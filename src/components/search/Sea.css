@@ -1,0 +1,10 @@
+.custom-select{
+    margin: auto auto;
+    padding-top: 3%;
+    padding-bottom: 12px;
+
+    max-width: 80%;
+    color:rgb(0, 0, 0);
+    background-color:transparent;
+    border-radius: 12px;
+}
