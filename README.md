@@ -1,3 +1,13 @@
+To deploy use : https://sa778888.github.io/weatherapp/
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
