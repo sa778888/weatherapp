@@ -1,12 +1,11 @@
 import React from 'react'
 import "./current_weather.css"
-
 const CurrentWeather = ({data}) => {
   return (
     <div className='weather'>
         <div className='top'>
             <h1 className='city'>{data.city}</h1>
-            <div><img alt='weather' className='weather-icon' src={`/icons/${data.weather[0].icon}.png`}/><p className='weather-description'>{data.weather[0].description}</p>
+            <div><img alt='weather' className='weather-icon' src={require(`../../icons/${data.weather[0].icon}.png`)}/><p className='weather-description'>{data.weather[0].description}</p>
             </div>
         </div>
         <div className='bottom'>

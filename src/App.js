@@ -1,10 +1,9 @@
 import './App.css';
 import Sea from './components/search/Sea.js';
-import CurrentWeather from './components/current_weather/current_weather.js';
+import CurrentWeather from './components/current_weather/Current_weather.jsx';
 import { WEATHER_API_KEY, WEATHER_API_URL } from './api';
 import { useState } from 'react';
-import Forecast from './components/forecast/forecast';
-import Top from './components/top/Top';
+import Forecast from './components/forecast/Forecast.jsx';
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forcast, setForcast] = useState(null);

@@ -1,9 +1,10 @@
+
 .main{
   background-color: red;
   display: block;
   margin: auto;
-  min-height:950px ;
-  max-width: 1280px;
+  height:90vh ;
+  width: 80vw;
   background: #5614B0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #DBD65C, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -21,4 +22,12 @@ border-radius: 30px;
   border-radius: 12px;
   margin:  auto;
   margin-top: auto;
+}
+.nav{
+  background-color: #e2df87;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
 }
